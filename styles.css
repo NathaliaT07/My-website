@@ -1,0 +1,88 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* style the top navigation bar*/
+.navbar a{
+    overflow: hidden;
+    background-color:black
+}
+
+/* style the bar links*/
+.navbar a{
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 201.6px;
+    text-decoration: none;
+}
+
+/*change color on hover*/
+.navbar a:hover{
+    color: black;
+    background-color: rgb(255, 197, 255)
+    
+}
+
+.header{
+    padding:60px;
+    text-align: center;
+    color: rgb(204, 127, 146);
+    background:rgb(204, 127, 146)
+    
+}
+
+.header h1{
+    font-size: 40px;
+    color: black;
+}
+
+.header p{
+    color: black;
+    font-size: 20px;
+}
+
+/* Column container*/
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/*create 2 unequal columns that sit next to each other
+Sidebar/left Column*/
+.side{
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color:rgb(255, 197, 255);
+    padding: 14px ;
+}
+
+.main{
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* toggle */
+.hidden{
+    display: none;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.footer p{
+    color: white;
+}
