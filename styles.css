@@ -8,7 +8,7 @@ body{
 }
 
 /* style the top navigation bar*/
-.navbar a{
+.navbar {
     overflow: hidden;
     background-color:black
 }
@@ -19,7 +19,7 @@ body{
     display: block;
     color:white;
     text-align: center;
-    padding: 14px 201.6px;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
@@ -85,4 +85,9 @@ Sidebar/left Column*/
 
 .footer p{
     color: white;
+}
+
+#scratch{
+    width: 300px;
+    height:auto;
 }
