@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
+    margin: 0 8.5rem;
 }
 
 .container .value-card{
@@ -45,6 +46,7 @@
     margin-top: -140px;
     padding: 10px 15px;
     text-align: center;
+    align-self: center;
     color: black;
     font-family: monospace;
     visibility: hidden;
