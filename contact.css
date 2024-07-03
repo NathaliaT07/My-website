@@ -1,0 +1,143 @@
+/* Transition */
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: rgb(255, 197, 255);
+}
+  
+a:hover {
+    color:black;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(255, 197, 255);
+}
+
+/* Sections */
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container{
+    display: flex;
+    /*width: 400px;
+    height: 1000px;*/
+}
+
+/* Profile Section */
+#profile{
+    display:flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p{
+    font-weight: 600;
+}
+
+.section__text_p1{
+    text-align: center;
+}
+
+.section__text_p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* Icons */
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+  
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+/* Contact */
+#contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+  
+.contact-info-upper-container {
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    border: black 1rem solid;
+    border-color: rgb(255, 197, 255);
+    background: rgb(204, 127, 146);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+  
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+  
+.contact-info-container p {
+    font-size: larger;
+}
+  
+.contact-icon {
+    cursor: default;
+    align-items: center;
+    height: 4rem;
+}
+  
+.email-icon {
+    height: 4rem;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+}
+
+
+
+
+
