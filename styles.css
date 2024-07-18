@@ -26,15 +26,15 @@ body{
 /*change color on hover*/
 .navbar a:hover{
     color: black;
-    background-color: rgb(255, 197, 255);
+    background-color: #ffc0cb;
     
 }
 
 .header{
     padding:60px;
     text-align: center;
-    color: rgb(204, 127, 146);
-    background:rgb(204, 127, 146);
+    color: #db7093;
+    background:#DB7093;
     
 }
 
@@ -61,7 +61,7 @@ Sidebar/left Column*/
 .side{
     -ms-flex: 30%;
     flex: 30%;
-    background-color:rgb(255, 197, 255);
+    background-color: #ffc0cb;
     padding: 14px ;
 }
 
